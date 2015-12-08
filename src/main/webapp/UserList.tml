@@ -1,0 +1,13 @@
+<html t:type="layout" title="Tapestry5-hotel-booking User List"
+      t:pageTitle="User List"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+
+<body>
+<h1 align= "center">List Users</h1>
+
+<t:grid source="users" row="user">
+</t:grid>
+</body>
+
+</html>
